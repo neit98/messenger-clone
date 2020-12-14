@@ -1,7 +1,13 @@
 import React from "react";
+import LoginLayout from "../../layouts/Login";
+import "./styles.scss";
 
-function Login() {
-  return <div></div>;
+function LoginPage() {
+  return (
+    <>
+      <LoginLayout />
+    </>
+  );
 }
 
-export default Login;
+export default LoginPage;
