@@ -1,19 +1,25 @@
+import { Button } from "@chakra-ui/react";
+import { FaGoogle } from "react-icons/fa";
 import React from "react";
+import messengerImg from "../../assets/images/messenger.jpg";
 import "./Login.scss";
 
 function Login() {
+  const handleLogin = () => {
+    alert("Login");
+  };
   return (
-    <div className="login">
-      <div className="login_container">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSC74PzYKRkfDeY4q1RVfq_wmDIhH78NIUZLw&usqp=CAU"
-          alt=""
-        />
-        <div className="login_text">
-          <h1>Chat App</h1>
-        </div>
-        <button>Sign in with Google</button>
-      </div>
+    <div className="login_container">
+      <img src={messengerImg} alt="img" />
+      <div className="login_text" />
+
+      <Button
+        className="login_button"
+        leftIcon={<FaGoogle />}
+        onClick={handleLogin}
+      >
+        Sign in with Gmail
+      </Button>
     </div>
   );
 }
