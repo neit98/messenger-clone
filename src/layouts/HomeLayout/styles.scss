@@ -1,0 +1,8 @@
+$background: "../../assets//images/19923.jpg";
+
+.home_layout {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: url($background);
+}
