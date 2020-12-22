@@ -8,8 +8,7 @@ function Notification() {
     <>
       <IconButton
         className="noti_button"
-        colorScheme="blue"
-        aria-label="Search database"
+        aria-label="Notification"
         icon={<RiNotificationFill />}
       />
     </>

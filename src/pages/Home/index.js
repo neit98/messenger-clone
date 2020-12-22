@@ -25,7 +25,6 @@ function HomePage() {
         <HomeHeader />
       </header>
       <HomeLayout />
-      <HomeLayout />
     </div>
   );
 }
